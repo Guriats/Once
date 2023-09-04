@@ -1,0 +1,20 @@
+:root {
+  font-family:'Calibri', 'Trebuchet MS', sans-serif;
+  --negro: #000000;
+  --grisoscuro: #666666;
+  --grismedio: #707070;
+  --granate: #982536;
+  --naranjaoscuro: #cd1401;
+  --blancosucio: #f3f3f3;
+  --naranjaclaro: #f4a460;
+  --negroclaro: #19242d;
+  --blanco: #ffffff;
+  --grisclaro: 000000;
+  --gris70: #19242d, opacity 70%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
