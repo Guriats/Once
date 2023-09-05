@@ -1,0 +1,36 @@
+#navSecundario{
+    height: 10vh;
+    width: auto;
+    display: flex;
+   
+    align-items:end;
+    justify-content: right;
+    padding-top: 20px;
+}
+
+header ul{
+    display:flex;  
+    flex-wrap: wrap;  
+    gap: 20px;
+  
+  }
+
+#logotipo{
+    height: 60px;
+    width: auto;
+    padding-right: 20px;
+}
+
+#logo{
+    height: 60px;
+    width: auto;
+    padding-left: 20px;
+}
+
+#ulSecundario li img{
+    height: 20px;
+}
+#ulSecundario li{
+padding-right: 10px;
+padding-bottom: 8px;
+}

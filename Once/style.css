@@ -13,6 +13,28 @@
   --gris70: #19242d, opacity 70%;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: var(--tertiary);
+}
+
+li {
+  list-style-type: none;
+}
+
 * {
   margin: 0;
   padding: 0;
