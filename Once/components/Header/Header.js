@@ -64,21 +64,21 @@ const template = () => {
 <ul id='ulPrimario'>
 
 <li>
-<a href="#null" id="home-link">Home</a>
+<a href="#null" id="xtd-link">¿Qué es XTD?</a>
 </li>
 
 <li>
-<a href="#null" id="about-link">About us</a>
+<a href="#null" id="cursos-link">Cursos</a>
 </li>
 
 <li>
-<a href="#null" id="contact-link">Contact</a>
+<a href="#null" id="becas-link">Becas</a>
 </li>
 
 </div>
 
 
-<img src="icons/logo.png" alt="Logo" class='logo'>
+<img src="icons/logo.png" id='logo' alt="Logo" class='logo'>
 
 
 
@@ -86,23 +86,20 @@ const template = () => {
 <ul id='ulPrimario2'>
 
 <li>
-<a href="#null" id="gallery-link">Gallery</a>
+<a href="#null" id="blog-link">Blog</a>
 </li>
 
 <li>
-<a href="#null" id="service-link">Service</a>
+<a href="#null" id="alumnos-link">Alumnos</a>
 </li>
 
 <li>
-<a href="#null" id="shop-link">Shop</a>
+<a href="#null" id="colaboradores-link">Colaboradores</a>
 </li>
-
-<li>
-<a href="#null" id="api-link">Api</a>
-</li>
-</div>
 
 </nav>
+
+<hr>
 
 `;
 };
