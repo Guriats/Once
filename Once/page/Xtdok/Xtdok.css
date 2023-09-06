@@ -1,0 +1,40 @@
+#imagenPrincipal {
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    margin-top: 10px;
+    border: rgb(186, 185, 185) solid 1px;
+}
+
+#ProgramadoresMonitor {
+    position: relative; 
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#cuadroInformacion{
+    
+     width: auto;
+     display: flex;
+     align-items:top;
+     justify-content:center;
+     padding-top: 40px;
+    
+}
+
+#InformacionTexto{
+    width: 500px;
+    padding-top: 35px;
+}
+
+#textoInformacion{
+    padding-top: 20px;
+}
+
+#InformacionImagen{
+    width: 500px;
+    height: auto;
+}
+
+
