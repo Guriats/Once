@@ -7,7 +7,14 @@ const template = () => {
   <div id="ProgramadoresMonitor">
   <img src="images/programadores-que-desarrollan-codigos-sus-computadoras_1.jpg" alt="programadores" id="programadores"/>
   </div> 
+  <div id="contenedor">
+  </div>
+  <div id="textoCabezera">
+  <h3> XTalentoDigital ofrece un curso de programación para personas con autismo
+  </h3>
+  </div>
 </section>
+
 
 <div id="cuadroInformacion">
 
@@ -23,7 +30,7 @@ const template = () => {
 <p id="textoBanner">¡Ya se ha abierto la II Convocatoria de becas de formación individual. No pierdas la oportunidad!</p>
 </div>
 
-<div>
+<div id="contenedorBanner">
 <img src="images/banner_home.png" alt="banner" id="banner"/>
 </div>
 </div>

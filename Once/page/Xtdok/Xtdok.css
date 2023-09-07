@@ -1,21 +1,49 @@
 #imagenPrincipal {
+    position: relative;
     width: 100%;
+    height: 35vh;
+    overflow: hidden;
+    margin-top: -5px;
+    border: rgb(0, 0, 0) solid 1px;
+}
+
+
+
+#programadores {
+    position: relative;
+    top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    }
+
+#contenedor{
+    position: absolute;
+    top: 0;
+    left: 0; 
+    left:  15%;
+    width: 550px;
     height: 50vh;
-    overflow: hidden;
-    margin-top: 10px;
-    border: rgb(186, 185, 185) solid 1px;
+    background-color: rgba(13, 13, 13, 0.96);
+    opacity: 0.5;
+    z-index: 1;
+}
+#textoCabezera{
+    position: absolute;
+    left: 17%;
+    top: 90px;
+    color: white;
+    width: 450px;
+    font-size: 30px;
+    z-index: 2;
+
 }
 
-#ProgramadoresMonitor {
-    position: relative; 
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 30px;
-}
 
-#cuadroInformacion{
-    
-     width: auto;
+
+#cuadroInformacion{    
+     width: 100%;
      display: flex;
      align-items:top;
      justify-content:center;
@@ -24,17 +52,35 @@
 }
 
 #InformacionTexto{
-    width: 500px;
+    width: 550px;
     padding-top: 35px;
+    padding-right: 70px;
 }
 
 #textoInformacion{
     padding-top: 20px;
 }
 
+
+
 #InformacionImagen{
-    width: 500px;
+    position: relative;
+    width: 550px;
     height: auto;
+    padding-left: 30px;
+}
+
+#textoImagen{
+  
+    position: absolute;
+    top: 0;
+    left: 0; 
+    padding-left: 50px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
 }
 
 

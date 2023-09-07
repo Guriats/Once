@@ -52,7 +52,7 @@ const template = () => {
 
  </nav>
 
- <hr>
+ 
 
 
 
