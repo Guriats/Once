@@ -13,6 +13,10 @@
   --gris70: #19242d, opacity 70%;
 }
 
+body{
+  min-height: 83vh;
+}
+
 button:hover {
   cursor: pointer;
 }
