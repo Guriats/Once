@@ -71,7 +71,7 @@
     left: 0; 
     padding-left: 30px;
     padding-top: 20px;
-    color: rgb(27, 26, 26);
+    color: rgb(250, 248, 248);
     font-size: 20px;
     font-weight: bold;
     text-align: left;
@@ -80,25 +80,40 @@
 #formacion{
     font-size: 35px;
     width: 400px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(16, 16, 16);
     margin-top: 50px;
     margin-left: 7%;
 }
 
 #cursos{
+
     width: 100%;
-    height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
     place-items: center;
-    grid-gap: 10px;  
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .contenedorCursos{
     border: 1px solid black;
     width: 600px;
     height: 400px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+ }
+
+ .fecha{
+    font-size: 20px;
+    width: 400px;
+ }
+
+ .datosLugar{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    width: 300;
  }
 

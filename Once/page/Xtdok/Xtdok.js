@@ -50,11 +50,98 @@ const template = () => {
 </div>
 
 <section id="cursos">
-<div class="contenedorCursos"></div>
+  <div class="contenedorCursos">
 
-<div class="contenedorCursos"></div>
+    <div class="fecha">
+       <p>Inscripción hasta el 31-12-2023</p>
+    </div>
+
+     <div class="datosLugar">
+        <p>
+          Prepárate para el mundo digital
+          Lugar:Zona Embajadores (Madrid)
+          Duración:
+          Plazas:
+          Modalidad:Presencial
+          Requisitos:
+          Sujeto a configuración de grupo completo.
+    
+          Descripción:
+          El itinerario formativo "Prepárate para el mundo...
+        </p>
+        <button class="inscribirse"> Inscríbete</button>
+      </div>
+  </div>
+
+  <div class="contenedorCursos">
+
+  <div class="fecha">
+     <p>Inscripción hasta el 31-12-2023</p>
+  </div>
+
+   <div class="datosLugar">
+      <p>
+        Prepárate para el mundo digital
+        Lugar:Zona Embajadores (Madrid)
+        Duración:
+        Plazas:
+        Modalidad:Presencial
+        Requisitos:
+        Sujeto a configuración de grupo completo.
+  
+        Descripción:
+        El itinerario formativo "Prepárate para el mundo...
+      </p>
+      <button class="inscribirse"> Inscríbete</button>
+    </div>
+</div>
+
+<div class="contenedorCursos">
+
+<div class="fecha">
+   <p>Inscripción hasta el 31-12-2023</p>
+</div>
+
+ <div class="datosLugar">
+    <p>
+      Prepárate para el mundo digital
+      Lugar:Zona Embajadores (Madrid)
+      Duración:
+      Plazas:
+      Modalidad:Presencial
+      Requisitos:
+      Sujeto a configuración de grupo completo.
+
+      Descripción:
+      El itinerario formativo "Prepárate para el mundo...
+    </p>
+    <button class="inscribirse"> Inscríbete</button>
+  </div>
+</div>
+
+<div class="contenedorCursos">
+
+<div class="fecha">
+   <p>Inscripción hasta el 31-12-2023</p>
+</div>
+
+ <div class="datosLugar">
+    <p>
+      Prepárate para el mundo digital
+      Lugar:Zona Embajadores (Madrid)
+      Duración:
+      Plazas:
+      Modalidad:Presencial
+      Requisitos:
+      Sujeto a configuración de grupo completo.
+
+      Descripción:
+      El itinerario formativo "Prepárate para el mundo...
+    </p>
+    <button class="inscribirse"> Inscríbete</button>
+  </div>
+</div>
 </section>
-
   `;
 };
 
